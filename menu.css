@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Tangerine:wght@400;700&display=swap');
+
+* {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+}
+
+company {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+company, name {
+    color:rgb(31, 141, 104);
+}
+
+header > title {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+time, days {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+name {
+    margin-top: 0.8em;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+price {
+    color: gray;
+}
+
+price::after {
+    content: " €";
+}
+
+calories {
+    color: rgb(96, 199, 37);
+}
+
+calories::before {
+    content: "Calories: ";
+}
+
+footer {
+    margin-top: 2em;
+}
+
+address, tel, website {
+    font-size: 0.8em;
+}
